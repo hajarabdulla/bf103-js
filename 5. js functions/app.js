@@ -101,10 +101,10 @@
 
 //! Function Declaration
 
-// function logger(value) {
-//   //   console.log("Salam");
-//   console.log(`Salam ${value}`);
-// }
+function logger(value) {
+  //   console.log("Salam");
+  console.log(`Salam ${value}`);
+}
 
 // logger("Hajar");
 // logger("Elnur");
