@@ -151,13 +151,68 @@
 // console.log(5 - "a");
 // console.log(typeof NaN);
 
-let a = "";
-let b = Boolean(a);
-console.log(typeof b);
+// let a = "";
+// let b = Boolean(a);
+// console.log(typeof b);
 
-let c = null;
-let d = Number(c);
+// let c = null;
+// let d = Number(c);
 
-console.log(b);
-console.log(d);
+// console.log(b);
+// console.log(d);
 
+// const text = "Hello!!! k !";
+
+// const findCountOfSentence = (sentence) => {
+//   let count = 0;
+//   let isPanc = false;
+
+//   for (let i = 0; i < sentence.length; i++) {
+//     let char = sentence[i];
+
+//     if (char == "." || char == "!" || char == "?") {
+//       if (!isPanc) count++;
+
+//       isPanc = true;
+//     } else {
+//       isPanc = false;
+//     }
+//   }
+
+//   return count;
+// };
+
+// console.log(findCountOfSentence(text));
+
+// const arr = [21, 65, 3, 9, 88, 33];
+// let max = arr[0];
+// let maxCount = 0;
+// let min = arr[0];
+// let minCount = 0;
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > max) {
+//     max = arr[i];
+//     maxCount = 1;
+//   } else if (arr[i] == max) {
+//     maxCount++;
+//   }
+
+//   if (arr[i] < min) {
+//     min = arr[i];
+//     minCount = 1;
+//   } else if (arr[i] == max) {
+//     minCount++;
+//   }
+
+//   sum = sum + arr[i] - count * maxCount - min * minCount;
+// }
+
+let arr = ["fruits", "banana", "fig", "apple"];
+
+let newArray1 = arr.slice(1, 2);
+let newArray2 = arr.splice(1, 2);
+
+console.log(newArray1); //banana
+console.log(newArray2); //banana, fig
