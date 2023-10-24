@@ -20,6 +20,9 @@ class User {
       (this.gender = gender),
       id++;
   }
+  get getPassword(){
+    return this.#password
+  }
 }
 function addUser(name, surname, email, password, fin, gender) {
   let newUser = new User(name, surname, email, password, fin, gender);
