@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .slider-images img {
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        src="https://www.w3schools.com/w3images/diningroom.jpg"
+        alt=""
+        class="slider-poster"
+      />
+    </div>
+
+    <div class="slider-images">
+      <img
+        src="https://www.w3schools.com/w3images/livingroom.jpg"
+        alt=""
+        class="slider-image"
+      />
+      <img
+        src="https://www.w3schools.com/w3images/diningroom.jpg"
+        alt=""
+        class="slider-image"
+      />
+      <img
+        src="https://www.w3schools.com/w3images/bedroom.jpg"
+        alt=""
+        class="slider-image"
+      />
+      <img
+        src="https://www.w3schools.com/w3images/livingroom2.jpg"
+        alt=""
+        class="slider-image"
+      />
+    </div>
+
+    <script>
+      const sliderPoster = document.querySelector(".slider-poster");
+      const sliderImage = document.querySelectorAll(".slider-image");
+
+      //   Array.from(sliderImage).map((item) => {
+      //     item.addEventListener("click", (e) => {
+      //       sliderPoster.src = item.src;
+      //     });
+      //   });
+
+      //   [...sliderImage].map((item) => {
+      //     item.addEventListener("click", (e) => {
+      //       sliderPoster.src = item.src;
+      //     });
+      //   });
+    </script>
+  </body>
+</html>
