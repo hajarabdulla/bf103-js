@@ -1,0 +1,26 @@
+{
+  "basket": [
+    {
+      "id": 1,
+      "productName": "Apple",
+      "productPrice": 2000,
+      "count": 1,
+      "totalPrice": 2000
+    },
+    {
+      "id": 2,
+      "productName": "Samsung",
+      "productPrice": 2000
+    },
+    {
+      "id": 3,
+      "productName": "LG",
+      "productPrice": 2000
+    },
+    {
+      "id": 4,
+      "productName": "Bosch",
+      "productPrice": 5000
+    }
+  ]
+}
