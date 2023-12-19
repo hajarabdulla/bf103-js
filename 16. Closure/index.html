@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #outer{
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #middle{
+            width: 200px;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background-color: red;
+        }
+        #inner{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    
-    <script src="./app.js"></script>
+    <div id="outer">
+        <div id="middle">
+            <div id="inner"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
